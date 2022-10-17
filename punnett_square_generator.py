@@ -7,6 +7,7 @@ parent1_allele0 = input("Please enter the first allele for Parent #1. [If there 
 parent1_allele1 = input("Please enter the second allele for Parent #1.\n")
 
 # String Variables to store the offspring alleles. 
+# Need to check that Dominant Recessive order is maintained using .isUpper()
 offspring_allele0 = parent0_allele0
 offspring_allele1 = parent1_allele0
 offspring_allele2 = parent0_allele1
@@ -18,6 +19,8 @@ offspring_allele7 = parent1_allele1
 
 
 # Display the Punnett Square
+# Turn into a function in future version. 
+
 print(f"             {parent0_allele0}                  {parent0_allele1}         ")
 print(f"     +=================+=================+")
 print(f"     +                 |                 +")
